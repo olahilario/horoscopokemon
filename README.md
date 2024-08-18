@@ -1,6 +1,8 @@
 I used this project to learn React and have some fun! =)
 Enjoy!
 
+https://horoscopokemon.onrender.com/
+
 
 Astrology is bushit.
 Horoscopokology rules the universe.
