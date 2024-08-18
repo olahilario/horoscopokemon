@@ -1,0 +1,88 @@
+.container_global{
+  background-image: url(../assets/background_d.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  height: 76vh;
+}
+
+.container_clock{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 55vh;
+}
+
+.title_today{
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: lighter;
+  color: #F24405;
+  cursor: no-drop;
+}
+
+
+.h3_today{
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: lighter;
+  color:#274065;
+  mix-blend-mode: hard-light;
+  cursor: wait;
+  margin-right: 2vw;
+}
+
+.msg{
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: lighter;
+  color:#274065;
+  padding: 10px;
+  mix-blend-mode: hard-light;
+}
+
+.msg2{
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color:#274065;
+  mix-blend-mode: hard-light;
+}
+
+.msg3{
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color:#F24405;
+  mix-blend-mode: hard-light;
+}
+
+.botao{
+  background-color: crimson;
+  color: azure;
+  height: 7vh;
+  width: 7vw;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: small;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+  margin-top: 30vh;
+}
+
+.botao:hover{
+  background-color: chartreuse;
+  color: deeppink;
+  font-size: large;
+}
+
+.food_card{
+  margin-top: -20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,93 @@
+#title{
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: lighter;
+  color: #F24405;
+  text-align: left;
+  margin-top: 7vh;
+}
+
+#container-home{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  justify-content: space-evenly;
+  /* overflow: -moz-hidden-unscrollable; */
+}
+
+#div-form{
+  border: #6DCCF2 5px double;
+  border-radius: 25px;
+  width: 40vw;
+  height: 45vh;
+  margin-top: 5vh;
+  background-image: url(/src/assets/div_background.jpg);
+  background-position: center;
+  background-size: cover;
+  mix-blend-mode: hue;
+  overflow: hidden
+
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 0.9fr 0.5fr;
+  overflow: hidden;
+  padding: 10px 10px;
+}
+
+.form label{
+  display: inline;
+  color: #F24405;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 3vh;
+  padding-bottom: 5vh;
+}
+
+.form label span{
+  margin-left: 2vw;
+  background-color: aquamarine;
+}
+
+.form input{
+  background-color: aquamarine;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #6c0094;
+  margin: auto;
+  margin-right: 50px;
+  width: 50px;
+  cursor: crosshair;
+}
+
+input::-webkit-inner-spin-button {
+  cursor: crosshair;
+  mix-blend-mode: exclusion;
+  touch-action: double-tap-zoom;
+}
+
+#tags{
+  background-color: aquamarine;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #6c0094;
+  }
+
+::placeholder{
+    color: #45005c;
+    font-weight: bolder;
+}
+
+#profecy{
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #45005c;
+  text-align: left;
+  margin-top: 0vh;
+  white-space: nowrap;
+}
+
